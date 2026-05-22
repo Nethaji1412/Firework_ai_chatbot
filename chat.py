@@ -57,7 +57,7 @@ MODEL_NAME = get_working_model()
 
 st.set_page_config(page_title="JARVIS", page_icon="⁕", layout="wide")
 
-st.title("🤖 Fireworks AI Chatbot (Auto Model Detection)")
+st.title("JARVIS")
 
 if MODEL_NAME:
     st.success(f"Using model: {MODEL_NAME}")
