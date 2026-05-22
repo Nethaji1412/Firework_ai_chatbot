@@ -71,7 +71,11 @@ else:
 
 if "messages" not in st.session_state:
     st.session_state.messages = [
-        {"role": "assistant", "content": "Hello 👋 I picked the best available model automatically!"}
+        {"role": "assistant", "content": """
+You are JARVIS, a highly intelligent assistant.
+Respond concisely, formally, assistively and firendly.
+Be precise, avoid unnecessary text, and prioritize usefulness.
+"""}
     ]
 
 # =====================================================
