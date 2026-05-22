@@ -55,7 +55,7 @@ MODEL_NAME = get_working_model()
 # STREAMLIT UI
 # =====================================================
 
-st.set_page_config(page_title="Fireworks Chatbot", page_icon="🤖", layout="wide")
+st.set_page_config(page_title="JARVIS", page_icon="⁕", layout="wide")
 
 st.title("🤖 Fireworks AI Chatbot (Auto Model Detection)")
 
